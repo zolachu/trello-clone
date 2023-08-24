@@ -1,10 +1,11 @@
 .project-list-body {
     padding: 1rem;
-    overflow-y: scroll;
+    overflow-y: auto;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     flex: 0 1 auto;
     max-height: 100vh;
     margin: 0 10px;
+    list-style-type: none;
 }

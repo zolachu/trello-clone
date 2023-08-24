@@ -14,16 +14,9 @@ export default function ProjectListBody({ count }) {
   ));
 
   return (
-    <div className='project-list-body'>
-      ProjectListBody
-      {/* <ProjectListCard />
-      <ProjectListCard /> <ProjectListCard /> */}
-      <ul>{listBody}</ul>
-      {/* <ProjectListCard /> <ProjectListCard />
-      <ProjectListCard /> <ProjectListCard />
-      <ProjectListCard /> <ProjectListCard />
-      <ProjectListCard /> <ProjectListCard />
-      <ProjectListCard /> */}
-    </div>
+    // <div className='project-list-body'>
+    //   ProjectListBody
+    <ul className='project-list-body'>{listBody}</ul>
+    // </div>
   );
 }
