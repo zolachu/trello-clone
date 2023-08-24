@@ -1,38 +1,29 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color:#228cd5;
+  background-image: url(https://d2k1ftgv7pobq7.cloudfront.net/images/backgrounds/gradients/snow.svg);
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #091e420f;
+  -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
+
+::-webkit-scrollbar-track { 
+  border-radius: 5px;
+  background: rgba(0,0,0,0.1); 
+  margin: 0 20px;
+}
+

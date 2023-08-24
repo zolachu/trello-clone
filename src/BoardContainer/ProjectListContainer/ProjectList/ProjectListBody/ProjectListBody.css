@@ -1,0 +1,10 @@
+.project-list-body {
+    padding: 1rem;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 2;
+    max-height: 100vh;
+    margin: 0 10px;
+}

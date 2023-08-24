@@ -1,0 +1,23 @@
+.project-list-container {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.project-list-container::-webkit-scrollbar-track { 
+    border: 5px solid transparent;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.1); 
+  }
+
+.project-list-container::-webkit-scrollbar {
+    height: 18px;
+}
+
+.project-list-container::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 255, 255, 0.4);
+}

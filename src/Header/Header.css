@@ -1,0 +1,12 @@
+.header {
+    background-color: #08479e;  
+      /* flex: 1; */
+    flex: 0 0 40px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.logo {
+    background-image: url("https://trello.com/assets/d947df93bc055849898e.gif");
+}
