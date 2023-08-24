@@ -6,23 +6,12 @@ export default function ProjectListBody() {
     <div className='project-list-body'>
       ProjectListBody
       <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
-      <ProjectListCard />
+      <ProjectListCard /> <ProjectListCard />
+      {/* <ProjectListCard /> <ProjectListCard />
+      <ProjectListCard /> <ProjectListCard />
+      <ProjectListCard /> <ProjectListCard />
+      <ProjectListCard /> <ProjectListCard />
+      <ProjectListCard /> */}
     </div>
   );
 }

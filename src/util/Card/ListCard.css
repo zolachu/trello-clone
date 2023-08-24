@@ -1,4 +1,4 @@
-/* .project-list-card {
+.project-list-card {
     padding: 1rem;
     background-color: #fff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.4);
@@ -7,4 +7,4 @@
 
 .project-list-card:hover {
     background-color: transparent;
-} */
+}

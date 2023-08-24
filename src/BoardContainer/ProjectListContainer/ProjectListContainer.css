@@ -16,8 +16,17 @@
 
 .project-list-container::-webkit-scrollbar {
     height: 18px;
+    position: absolute;
+    bottom: 0;
 }
+
+/* var(--ds-background-neutral,#091e420f) */
 
 .project-list-container::-webkit-scrollbar-thumb {
     background-color: rgba(255, 255, 255, 0.4);
+}
+
+.main-container {
+    display: flex;
+    flex: 1 1;
 }

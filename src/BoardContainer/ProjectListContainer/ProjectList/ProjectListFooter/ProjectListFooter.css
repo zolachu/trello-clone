@@ -3,3 +3,22 @@
     text-align: start;
     font-weight: bold;
 }  
+
+.add-card  {
+    padding: 10px 10px;
+    color: rgb(66, 73, 88);
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+p {
+    font-size: 20px;
+    margin:0;
+}
+
+.add-card:hover {
+    background-color: rgb(130,130,130,0.4);
+}
