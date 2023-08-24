@@ -8,11 +8,13 @@
     overflow-y: hidden;
 }
 
-.temp-list {
+.container-project-list {
     flex: 0 0 500px;
     width: 20vw;
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
-    
 }
+
+/* Read the following */
+/* https://stackoverflow.com/questions/24538100/issue-when-centering-vertically-with-flexbox-when-heights-are-unknown */

@@ -13,7 +13,7 @@ export default function ProjectList() {
     setCount((c) => c + 1);
   };
   return (
-    <div className='temp-list'>
+    <div className='container-project-list'>
       <Card className='project-list'>
         <ProjectListHeader />
         <ProjectListBody count={count} />

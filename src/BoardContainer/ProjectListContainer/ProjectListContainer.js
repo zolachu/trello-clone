@@ -29,30 +29,9 @@ export default function ProjectListContainer() {
     /* <div className='project-list-container'> */
     /* <ul className='project-list-container'>{mappedProjectList}</ul> */
     <div className='project-list-container'>
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
-      <ProjectList />
+      <ProjectList /> <ProjectList />
       <ProjectList />
       <ProjectList onClick={addAnotherList} />
-      <Card>
-        <button onClick={addAnotherList}></button>
-      </Card>
     </div>
     // </div>
   );
