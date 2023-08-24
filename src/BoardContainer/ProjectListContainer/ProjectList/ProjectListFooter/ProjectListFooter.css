@@ -8,10 +8,10 @@
     padding: 10px 10px;
     color: rgb(66, 73, 88);
     font-weight: normal;
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     align-items: center;
-    
+
 }
 
 p {
